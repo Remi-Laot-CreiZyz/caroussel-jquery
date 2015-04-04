@@ -1,0 +1,17 @@
+UTILISATION
+--------------------------------
+EXEMPLE:
+
+1 - <div data-caroussel="caroussel">
+2 - ....<div data-caroussel="data" data-caroussel-delay="2500" data-caroussel-pin="true" data-caroussel-progress-bar="false">
+3 - ........<span data-url='URL1.jpg'></span>
+4 - ........<span data-url='URL2.jpg'></span>
+5 - ........<span data-url='....jpg'></span>
+6 - ....</div>
+7 - </div>
+
+Pour définir un nouveau caroussel, il suffit de créer deux <div>: Une balise qui contiendra l'attribut [data-caroussel="caroussel"] dans laquelle vous placerez une seconde balise qui contient l'attribut [data-caroussel=data]. La balise 'data' contient les options du caroussel en attribut. Ajoutez les urls des images à afficher dans des attributs [data-url] de balises <span> enfants de la balise 'data'.
+
+DISCLAIMER
+--------------------------------
+Ce plugin n'est pas fini.

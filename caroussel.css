@@ -1,0 +1,48 @@
+.caroussel,
+div[data-caroussel=caroussel]
+{
+	overflow: hidden
+}
+
+/* IMAGES */
+
+.caroussel-img-wrapper
+{
+	max-width: 100%;
+	/*position: absolute; top: 0; left: 0;*/
+}
+
+.caroussel-img-wrapper > img
+{
+	max-width: 100%;
+}
+
+/* PINS */
+
+.caroussel-pin-wrapper
+{
+	text-align: center;
+}
+
+.caroussel-pin
+{
+	display: inline-block;
+	margin: 0em 0.5em 0em 0.5em;
+	width: 1em; height: 1em;
+	border-radius: 0.55em 0.55em 0.55em 0.55em;
+	background-color: #D8D8D8;
+	cursor: pointer;
+}
+
+.caroussel-pin.active
+{
+	background-color: #848484;
+}
+
+/* AUTOMATIC CHANGE PROGRESS BAR */
+.caroussel-progress-bar
+{
+	position: absolute; top: 0; left: 0;
+	width: 0; height: 100%;
+	background-color: white; opacity: 0.5;
+}
